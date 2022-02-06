@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+#lft{
+    width: 7%;
+    height: 100%;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}
+#lft i{
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#lft img{
+    position: absolute;
+    top: 30px;
+    left: 18px;
+    height: 70px;
+}
+#lft h6{
+    position: absolute;
+    bottom: 60px;
+    left: 20px;
+    transform: rotate(90deg);
+    color: rgba(209, 209, 209, 0.473);
+}
+#right{
+    position: relative;
+    width: 93%;
+    height: 100%;
+    overflow: hidden;
+}
+#rtop{
+    display: flex;
+    width: 100%;
+    height: 65%;
+}
+#rbtm{
+    width: 100%;
+    height: 35%;
+    background-image: url(https://images.unsplash.com/photo-1612116283441-5a95a5f16725?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    background-position: bottom;
+}
+#rleft{
+    width: 90%;
+    height: 100%;
+    background-color: #DAA845;
+}
+#text{
+    position: absolute;
+    bottom: 50%;
+    left: 25%;
+    color: #fff;
+}
+#text h1{
+    position: relative;
+    font-size: 100px;
+    line-height: 90px;
+    z-index: 2;
+}
+#text2{
+    margin-left: 260px;
+    margin-top: -70px;
+    transform-origin: 0 50%;
+    transform: rotate(90deg);
+}
+#text2 h1{
+    line-height: 80px;
+}
+#text p{
+    position: absolute;
+    top: 90%;
+    left: 10px;
+    width: 150px;
+    height: 60px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.541);
+}
+#rright{
+    width: 10%;
+    height: 100%;
+    background-color: #A82C2F;
+}
+#circle{
+    position: absolute;
+    top: -40px;
+    left: -150px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #BF2D2E;
+    z-index: 1;
+}
+#circle2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #A82C2F;
+}
+#circle3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+#right img{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+}
+#text img{
+    position: absolute;
+    top: -100%;
+    left: -30%;
+    opacity: .3;
+}
+#a{
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    height: 40px;
+    color: #fff;
+}
+#a #cir{
+    position: absolute;
+    top: -70%;
+    left: -45px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-image: url(https://images.unsplash.com/photo-1441039995991-e5c1178e605a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTF8fG1vdW5hdGluc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+    border-top: 5px solid #A82C2F;
+    border-left: 5px solid #fff;
+    border-bottom: 5px solid #A82C2F;
+    border-right: 5px solid #A82C2F;
+    transform: rotate(-45deg);
+}
+#a h6{
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    font-size: 12px;
+    transform: translate(0%,-50%);
+    font-weight: 500;
+}
+#num{
+    position: absolute;
+    top: -50%;
+    right: 96.5%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+#num p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 12px;
+    font-weight: bolder;
+    color: #A82C2F;
+}
+#b{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    height: 40px;
+    color: rgb(202, 202, 202);
+}
+#b #cir{
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+#b h6{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    font-size: 12px;
+    transform: translate(0%,-50%);
+    font-weight: 500;
+}
+#b #cir p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 12px;
+    font-weight: bolder;
+    color: #A82C2F;
+}
+#b #line{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    height: 2px;
+    background-color: rgba(219, 219, 219, 0.5);
+    opacity: .6;
+}
+#c{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    height: 40px;
+    color: rgb(202, 202, 202);
+}
+#c #cir{
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+#c h6{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    font-size: 12px;
+    transform: translate(0%,-50%);
+    font-weight: 500;
+}
+#c #cir p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 12px;
+    font-weight: bolder;
+    color: #A82C2F;
+}
+#c #line{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    height: 2px;
+    background-color: rgba(219, 219, 219, 0.5);
+    opacity: .6;
+}
+#d{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 40px;
+    color: rgb(202, 202, 202);
+}
+#d #cir{
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+#d h6{
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    font-size: 12px;
+    transform: translate(0%,-50%);
+    font-weight: 500;
+}
+#d #cir p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 12px;
+    font-weight: bolder;
+    color: #A82C2F;
+}
+#d #line{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 30px;
+    height: 2px;
+    background-color: rgba(219, 219, 219, 0.5);
+    opacity: .6;
+}
+
+#search{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+#search i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: bolder;
+}
